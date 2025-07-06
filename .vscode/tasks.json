@@ -10,7 +10,9 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"-lfreeglut",
+       			"-lopengl32"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
